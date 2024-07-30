@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BDC2F3F52C59683D00289338 /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2F3F42C59683D00289338 /* secondView.swift */; };
 		BDC2F3F72C59692300289338 /* thirdview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2F3F62C59692300289338 /* thirdview.swift */; };
+		BDC2F3FD2C596E0E00289338 /* timerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2F3FC2C596E0E00289338 /* timerView.swift */; };
 		BDDCE08F2C584E3200F0B8C2 /* ProTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDCE08E2C584E3200F0B8C2 /* ProTaskApp.swift */; };
 		BDDCE0912C584E3200F0B8C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDCE0902C584E3200F0B8C2 /* ContentView.swift */; };
 		BDDCE0932C584E3300F0B8C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDCE0922C584E3300F0B8C2 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		BDC2F3F42C59683D00289338 /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
 		BDC2F3F62C59692300289338 /* thirdview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdview.swift; sourceTree = "<group>"; };
+		BDC2F3FC2C596E0E00289338 /* timerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerView.swift; sourceTree = "<group>"; };
 		BDDCE08B2C584E3200F0B8C2 /* ProTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDCE08E2C584E3200F0B8C2 /* ProTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTaskApp.swift; sourceTree = "<group>"; };
 		BDDCE0902C584E3200F0B8C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				BDDCE08E2C584E3200F0B8C2 /* ProTaskApp.swift */,
 				BDDCE0902C584E3200F0B8C2 /* ContentView.swift */,
 				BDC2F3F42C59683D00289338 /* secondView.swift */,
+				BDC2F3FC2C596E0E00289338 /* timerView.swift */,
 				BDC2F3F62C59692300289338 /* thirdview.swift */,
 				BDDCE0922C584E3300F0B8C2 /* Assets.xcassets */,
 				BDDCE0942C584E3300F0B8C2 /* Preview Content */,
@@ -267,6 +270,7 @@
 				BDDCE0912C584E3200F0B8C2 /* ContentView.swift in Sources */,
 				BDC2F3F52C59683D00289338 /* secondView.swift in Sources */,
 				BDDCE08F2C584E3200F0B8C2 /* ProTaskApp.swift in Sources */,
+				BDC2F3FD2C596E0E00289338 /* timerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
