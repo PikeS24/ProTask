@@ -14,26 +14,33 @@ struct ContentView: View {
                 HStack{
                     Text("This is the mental health tab")
                     Text("This is the APM tab")
-                    }
+                }
                 VStack{
                     Text("This is the community tab")
                         .padding(.top, 6.0)
                     
                 }
-        }
+            }
             .toolbar {
                 ToolbarItemGroup(placement: .status) {
-                    NavigationLink(destination: secondView()) {Text("Calendar")
-                        .foregroundColor(Color.red)}
+                    NavigationLink(destination: secondView()) {Text("🗓️")
+                            .font(.largeTitle)
+                            .foregroundColor(Color.red)}
                     NavigationLink(destination: thirdview())
-                    {Text("Profile")}
-                                    
+                    {Text("👤")}
+                        .font(.largeTitle)
+                        
+                        NavigationLink(destination: timerView())
+                        {Text("⏱️")
+                                .font(.largeTitle)
+                            .foregroundColor(Color.orange)}
+                        
+                    }
                 }
+                
             }
-        
         }
     }
-        }
 
     
 #Preview {
