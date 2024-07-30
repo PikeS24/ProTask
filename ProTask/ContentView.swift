@@ -11,7 +11,6 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("Test")
                 HStack{
                     Text("This is the mental health tab")
                     Text("This is the APM tab")
