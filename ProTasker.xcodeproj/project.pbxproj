@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD09531B2C598AF7003F1E44 /* commView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09531A2C598AF7003F1E44 /* commView.swift */; };
+		BDB476C52C5AF05B00FF23FF /* ActualTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB476C42C5AF05B00FF23FF /* ActualTimerView.swift */; };
+		BDB476CB2C5AF23C00FF23FF /* mentalHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB476CA2C5AF23C00FF23FF /* mentalHealthView.swift */; };
+		BDB476CD2C5AF25500FF23FF /* aPMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB476CC2C5AF25500FF23FF /* aPMView.swift */; };
 		BDC2F3F52C59683D00289338 /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2F3F42C59683D00289338 /* secondView.swift */; };
 		BDC2F3F72C59692300289338 /* thirdview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2F3F62C59692300289338 /* thirdview.swift */; };
 		BDC2F3FD2C596E0E00289338 /* timerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2F3FC2C596E0E00289338 /* timerView.swift */; };
@@ -37,17 +41,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD09531A2C598AF7003F1E44 /* commView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commView.swift; sourceTree = "<group>"; };
+		BDB476C42C5AF05B00FF23FF /* ActualTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualTimerView.swift; sourceTree = "<group>"; };
+		BDB476CA2C5AF23C00FF23FF /* mentalHealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentalHealthView.swift; sourceTree = "<group>"; };
+		BDB476CC2C5AF25500FF23FF /* aPMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aPMView.swift; sourceTree = "<group>"; };
 		BDC2F3F42C59683D00289338 /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
 		BDC2F3F62C59692300289338 /* thirdview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdview.swift; sourceTree = "<group>"; };
 		BDC2F3FC2C596E0E00289338 /* timerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerView.swift; sourceTree = "<group>"; };
-		BDDCE08B2C584E3200F0B8C2 /* ProTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDCE08B2C584E3200F0B8C2 /* ProTasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProTasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDCE08E2C584E3200F0B8C2 /* ProTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTaskApp.swift; sourceTree = "<group>"; };
 		BDDCE0902C584E3200F0B8C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDDCE0922C584E3300F0B8C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDDCE0952C584E3300F0B8C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BDDCE09B2C584E3400F0B8C2 /* ProTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDCE09B2C584E3400F0B8C2 /* ProTaskerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProTaskerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDCE09F2C584E3400F0B8C2 /* ProTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTaskTests.swift; sourceTree = "<group>"; };
-		BDDCE0A52C584E3400F0B8C2 /* ProTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDCE0A52C584E3400F0B8C2 /* ProTaskerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProTaskerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDCE0A92C584E3400F0B8C2 /* ProTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTaskUITests.swift; sourceTree = "<group>"; };
 		BDDCE0AB2C584E3400F0B8C2 /* ProTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,9 +98,9 @@
 		BDDCE08C2C584E3200F0B8C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BDDCE08B2C584E3200F0B8C2 /* ProTask.app */,
-				BDDCE09B2C584E3400F0B8C2 /* ProTaskTests.xctest */,
-				BDDCE0A52C584E3400F0B8C2 /* ProTaskUITests.xctest */,
+				BDDCE08B2C584E3200F0B8C2 /* ProTasker.app */,
+				BDDCE09B2C584E3400F0B8C2 /* ProTaskerTests.xctest */,
+				BDDCE0A52C584E3400F0B8C2 /* ProTaskerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +109,13 @@
 			isa = PBXGroup;
 			children = (
 				BDDCE08E2C584E3200F0B8C2 /* ProTaskApp.swift */,
+				BD09531A2C598AF7003F1E44 /* commView.swift */,
 				BDDCE0902C584E3200F0B8C2 /* ContentView.swift */,
+				BDB476CC2C5AF25500FF23FF /* aPMView.swift */,
+				BDB476CA2C5AF23C00FF23FF /* mentalHealthView.swift */,
 				BDC2F3F42C59683D00289338 /* secondView.swift */,
 				BDC2F3FC2C596E0E00289338 /* timerView.swift */,
+				BDB476C42C5AF05B00FF23FF /* ActualTimerView.swift */,
 				BDC2F3F62C59692300289338 /* thirdview.swift */,
 				BDDCE0922C584E3300F0B8C2 /* Assets.xcassets */,
 				BDDCE0942C584E3300F0B8C2 /* Preview Content */,
@@ -139,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BDDCE08A2C584E3200F0B8C2 /* ProTask */ = {
+		BDDCE08A2C584E3200F0B8C2 /* ProTasker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDDCE0AF2C584E3400F0B8C2 /* Build configuration list for PBXNativeTarget "ProTask" */;
+			buildConfigurationList = BDDCE0AF2C584E3400F0B8C2 /* Build configuration list for PBXNativeTarget "ProTasker" */;
 			buildPhases = (
 				BDDCE0872C584E3200F0B8C2 /* Sources */,
 				BDDCE0882C584E3200F0B8C2 /* Frameworks */,
@@ -151,14 +163,14 @@
 			);
 			dependencies = (
 			);
-			name = ProTask;
+			name = ProTasker;
 			productName = ProTask;
-			productReference = BDDCE08B2C584E3200F0B8C2 /* ProTask.app */;
+			productReference = BDDCE08B2C584E3200F0B8C2 /* ProTasker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BDDCE09A2C584E3400F0B8C2 /* ProTaskTests */ = {
+		BDDCE09A2C584E3400F0B8C2 /* ProTaskerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDDCE0B22C584E3400F0B8C2 /* Build configuration list for PBXNativeTarget "ProTaskTests" */;
+			buildConfigurationList = BDDCE0B22C584E3400F0B8C2 /* Build configuration list for PBXNativeTarget "ProTaskerTests" */;
 			buildPhases = (
 				BDDCE0972C584E3400F0B8C2 /* Sources */,
 				BDDCE0982C584E3400F0B8C2 /* Frameworks */,
@@ -169,14 +181,14 @@
 			dependencies = (
 				BDDCE09D2C584E3400F0B8C2 /* PBXTargetDependency */,
 			);
-			name = ProTaskTests;
+			name = ProTaskerTests;
 			productName = ProTaskTests;
-			productReference = BDDCE09B2C584E3400F0B8C2 /* ProTaskTests.xctest */;
+			productReference = BDDCE09B2C584E3400F0B8C2 /* ProTaskerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BDDCE0A42C584E3400F0B8C2 /* ProTaskUITests */ = {
+		BDDCE0A42C584E3400F0B8C2 /* ProTaskerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDDCE0B52C584E3400F0B8C2 /* Build configuration list for PBXNativeTarget "ProTaskUITests" */;
+			buildConfigurationList = BDDCE0B52C584E3400F0B8C2 /* Build configuration list for PBXNativeTarget "ProTaskerUITests" */;
 			buildPhases = (
 				BDDCE0A12C584E3400F0B8C2 /* Sources */,
 				BDDCE0A22C584E3400F0B8C2 /* Frameworks */,
@@ -187,9 +199,9 @@
 			dependencies = (
 				BDDCE0A72C584E3400F0B8C2 /* PBXTargetDependency */,
 			);
-			name = ProTaskUITests;
+			name = ProTaskerUITests;
 			productName = ProTaskUITests;
-			productReference = BDDCE0A52C584E3400F0B8C2 /* ProTaskUITests.xctest */;
+			productReference = BDDCE0A52C584E3400F0B8C2 /* ProTaskerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BDDCE0862C584E3200F0B8C2 /* Build configuration list for PBXProject "ProTask" */;
+			buildConfigurationList = BDDCE0862C584E3200F0B8C2 /* Build configuration list for PBXProject "ProTasker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +240,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BDDCE08A2C584E3200F0B8C2 /* ProTask */,
-				BDDCE09A2C584E3400F0B8C2 /* ProTaskTests */,
-				BDDCE0A42C584E3400F0B8C2 /* ProTaskUITests */,
+				BDDCE08A2C584E3200F0B8C2 /* ProTasker */,
+				BDDCE09A2C584E3400F0B8C2 /* ProTaskerTests */,
+				BDDCE0A42C584E3400F0B8C2 /* ProTaskerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,10 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB476C52C5AF05B00FF23FF /* ActualTimerView.swift in Sources */,
+				BD09531B2C598AF7003F1E44 /* commView.swift in Sources */,
 				BDC2F3F72C59692300289338 /* thirdview.swift in Sources */,
+				BDB476CB2C5AF23C00FF23FF /* mentalHealthView.swift in Sources */,
 				BDDCE0912C584E3200F0B8C2 /* ContentView.swift in Sources */,
 				BDC2F3F52C59683D00289338 /* secondView.swift in Sources */,
 				BDDCE08F2C584E3200F0B8C2 /* ProTaskApp.swift in Sources */,
+				BDB476CD2C5AF25500FF23FF /* aPMView.swift in Sources */,
 				BDC2F3FD2C596E0E00289338 /* timerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,12 +312,12 @@
 /* Begin PBXTargetDependency section */
 		BDDCE09D2C584E3400F0B8C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BDDCE08A2C584E3200F0B8C2 /* ProTask */;
+			target = BDDCE08A2C584E3200F0B8C2 /* ProTasker */;
 			targetProxy = BDDCE09C2C584E3400F0B8C2 /* PBXContainerItemProxy */;
 		};
 		BDDCE0A72C584E3400F0B8C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BDDCE08A2C584E3200F0B8C2 /* ProTask */;
+			target = BDDCE08A2C584E3200F0B8C2 /* ProTasker */;
 			targetProxy = BDDCE0A62C584E3400F0B8C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -500,7 +516,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProTask";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProTasker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProTasker";
 			};
 			name = Debug;
 		};
@@ -520,7 +536,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProTask";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProTasker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProTasker";
 			};
 			name = Release;
 		};
@@ -563,7 +579,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BDDCE0862C584E3200F0B8C2 /* Build configuration list for PBXProject "ProTask" */ = {
+		BDDCE0862C584E3200F0B8C2 /* Build configuration list for PBXProject "ProTasker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDDCE0AD2C584E3400F0B8C2 /* Debug */,
@@ -572,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDDCE0AF2C584E3400F0B8C2 /* Build configuration list for PBXNativeTarget "ProTask" */ = {
+		BDDCE0AF2C584E3400F0B8C2 /* Build configuration list for PBXNativeTarget "ProTasker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDDCE0B02C584E3400F0B8C2 /* Debug */,
@@ -581,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDDCE0B22C584E3400F0B8C2 /* Build configuration list for PBXNativeTarget "ProTaskTests" */ = {
+		BDDCE0B22C584E3400F0B8C2 /* Build configuration list for PBXNativeTarget "ProTaskerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDDCE0B32C584E3400F0B8C2 /* Debug */,
@@ -590,7 +606,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDDCE0B52C584E3400F0B8C2 /* Build configuration list for PBXNativeTarget "ProTaskUITests" */ = {
+		BDDCE0B52C584E3400F0B8C2 /* Build configuration list for PBXNativeTarget "ProTaskerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDDCE0B62C584E3400F0B8C2 /* Debug */,

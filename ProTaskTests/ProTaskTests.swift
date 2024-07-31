@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import ProTask
+@testable import ProTasker
 
 final class ProTaskTests: XCTestCase {
 

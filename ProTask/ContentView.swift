@@ -8,32 +8,68 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var name = ""
+    @State private var calendarIcon = "Calendar"
+    @State private var showCal = false
+    
     var body: some View {
         NavigationStack {
-            VStack {
-                HStack{
-                    Text("This is the mental health tab")
-                    Text("This is the APM tab")
-                }
-                VStack{
-                    Text("This is the community tab")
-                        .padding(.top, 6.0)
+                VStack(alignment: .leading,spacing: 10) {
+                    NavigationLink(destination: mentalHealthView())
+                    {Image("Mental")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .padding(20.0)
+                    }
+                    
+                    NavigationLink(destination: aPMView())
+                    {Image("APM")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .padding(20.0)
+                        
+                    }
+                    
+                    NavigationLink(destination: commView())
+                    {Image("Community")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .padding(20.0)
+                    }
                     
                 }
-            }
+                
             .toolbar {
                 ToolbarItemGroup(placement: .status) {
-                    NavigationLink(destination: secondView()) {Text("🗓️")
-                            .font(.largeTitle)
-                            .foregroundColor(Color.red)}
-                    NavigationLink(destination: thirdview())
-                    {Text("👤")}
-                        .font(.largeTitle)
+                    HStack{
+                        NavigationLink(destination: secondView()) {Image("calendar")
+                                .renderingMode(.original)
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 90.0, height: 90.0)
+                            
+                        }
+                        
+                        NavigationLink(destination: thirdview())
+                        {Image("profile 1")
+                                .renderingMode(.original)
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 90.0, height: 90.0)
+                        }
+                    
                         
                         NavigationLink(destination: timerView())
-                        {Text("⏱️")
-                                .font(.largeTitle)
-                            .foregroundColor(Color.orange)}
+                        {Image("Timer")
+                                .renderingMode(.original)
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 100.0, height: 100.0)
+                        }
+                        
+                        
+                        //need to finish the padding stuff to make sure it looks good
                         
                     }
                 }
@@ -41,7 +77,8 @@ struct ContentView: View {
             }
         }
     }
-
+    
+}
     
 #Preview {
     ContentView()
