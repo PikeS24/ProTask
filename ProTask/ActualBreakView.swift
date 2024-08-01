@@ -1,13 +1,13 @@
 //
-//  ActualTimerView.swift
-//  ProTask
+//  ActualBreakView.swift
+//  ProTasker
 //
-//  Created by Scholar on 7/31/24.
+//  Created by Scholar on 8/1/24.
 //
 
 import SwiftUI
 
-struct ActualTimerView: View {
+struct ActualBreakView: View {
     @State private var timeRemaining: TimeInterval = time
     @State private var timer : Timer?
     @State private var isRunning: Bool = false
@@ -15,12 +15,9 @@ struct ActualTimerView: View {
     
     var body: some View {
         ZStack {
-            
             Color(Color(red: 0.9412, green: 0.9176, blue: 0.8235))
                 .ignoresSafeArea()
-            
             NavigationStack {
-             
                 VStack(alignment: .center) {
                     ZStack {
                         Circle()
@@ -55,23 +52,29 @@ struct ActualTimerView: View {
                     }
                 }
                 .padding(.horizontal, 30)
-                .navigationTitle("Study Timer 🌳")
+                .navigationTitle("Break Time")
                 .navigationBarTitleDisplayMode(.inline)
-                .foregroundColor(Color(red: 0.4235, green: 0.3451, blue: 0.298))
-                
-              
-                NavigationLink(destination: studyTimerView()) {
-                    Text("🎊 Break Time 🎊 ➡️")
+                .foregroundColor(Color(red: 0.675, green: 0.755, blue: 0.465))
+             
+                NavigationLink(destination: ContentView()) {
+                    Text("Back to Home ➡️")
                         .font(.title)
                         .fontWeight(.semibold)
-                        .foregroundColor(Color(red: 0.4235, green: 0.3451, blue: 0.298))
+                        .foregroundColor(Color(red: 0.675, green: 0.755, blue: 0.465))
                 }
+                
+                NavigationLink(destination: timerView()) {
+                    Text("Keep Studying 📝 ➡️")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color(red: 0.675, green: 0.755, blue: 0.465))
+                    
+                }
+                .padding(.top, 10.0)
             
             }
-            
         }
     }
-    
         private func formattedTime() -> String {
             let minutes = Int(timeRemaining) / 60
             let second = Int(timeRemaining) % 60

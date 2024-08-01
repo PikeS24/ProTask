@@ -8,10 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		BD09531B2C598AF7003F1E44 /* commView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09531A2C598AF7003F1E44 /* commView.swift */; };
+		BDADBCF42C5BF5D90027D9F1 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADBCF32C5BF5D90027D9F1 /* Date+Extension.swift */; };
+		BDADBCF62C5BF63A0027D9F1 /* Custom_CalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADBCF52C5BF63A0027D9F1 /* Custom_CalendarApp.swift */; };
 		BDB476C52C5AF05B00FF23FF /* ActualTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB476C42C5AF05B00FF23FF /* ActualTimerView.swift */; };
 		BDB476CB2C5AF23C00FF23FF /* mentalHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB476CA2C5AF23C00FF23FF /* mentalHealthView.swift */; };
 		BDB476CD2C5AF25500FF23FF /* aPMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB476CC2C5AF25500FF23FF /* aPMView.swift */; };
-		BDC2F3F52C59683D00289338 /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2F3F42C59683D00289338 /* secondView.swift */; };
+		BDB476CF2C5AF4B400FF23FF /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB476CE2C5AF4B400FF23FF /* secondView.swift */; };
+		BDB634DE2C5C3B8E0077FBFA /* quizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB634DD2C5C3B8E0077FBFA /* quizView.swift */; };
+		BDB634E02C5C3BA20077FBFA /* depV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB634DF2C5C3BA20077FBFA /* depV.swift */; };
+		BDB634E22C5C3BAC0077FBFA /* anV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB634E12C5C3BAC0077FBFA /* anV.swift */; };
+		BDB634E42C5C3BB60077FBFA /* eatV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB634E32C5C3BB60077FBFA /* eatV.swift */; };
+		BDB634E62C5C3BC00077FBFA /* moreV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB634E52C5C3BC00077FBFA /* moreV.swift */; };
+		BDB634E82C5C3CCA0077FBFA /* studyTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB634E72C5C3CCA0077FBFA /* studyTimerView.swift */; };
+		BDB634EA2C5C3D250077FBFA /* ActualBreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB634E92C5C3D250077FBFA /* ActualBreakView.swift */; };
 		BDC2F3F72C59692300289338 /* thirdview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2F3F62C59692300289338 /* thirdview.swift */; };
 		BDC2F3FD2C596E0E00289338 /* timerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2F3FC2C596E0E00289338 /* timerView.swift */; };
 		BDDCE08F2C584E3200F0B8C2 /* ProTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDCE08E2C584E3200F0B8C2 /* ProTaskApp.swift */; };
@@ -42,10 +51,19 @@
 
 /* Begin PBXFileReference section */
 		BD09531A2C598AF7003F1E44 /* commView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commView.swift; sourceTree = "<group>"; };
+		BDADBCF32C5BF5D90027D9F1 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		BDADBCF52C5BF63A0027D9F1 /* Custom_CalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_CalendarApp.swift; sourceTree = "<group>"; };
 		BDB476C42C5AF05B00FF23FF /* ActualTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualTimerView.swift; sourceTree = "<group>"; };
 		BDB476CA2C5AF23C00FF23FF /* mentalHealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentalHealthView.swift; sourceTree = "<group>"; };
 		BDB476CC2C5AF25500FF23FF /* aPMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aPMView.swift; sourceTree = "<group>"; };
-		BDC2F3F42C59683D00289338 /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
+		BDB476CE2C5AF4B400FF23FF /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
+		BDB634DD2C5C3B8E0077FBFA /* quizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizView.swift; sourceTree = "<group>"; };
+		BDB634DF2C5C3BA20077FBFA /* depV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depV.swift; sourceTree = "<group>"; };
+		BDB634E12C5C3BAC0077FBFA /* anV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anV.swift; sourceTree = "<group>"; };
+		BDB634E32C5C3BB60077FBFA /* eatV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eatV.swift; sourceTree = "<group>"; };
+		BDB634E52C5C3BC00077FBFA /* moreV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreV.swift; sourceTree = "<group>"; };
+		BDB634E72C5C3CCA0077FBFA /* studyTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyTimerView.swift; sourceTree = "<group>"; };
+		BDB634E92C5C3D250077FBFA /* ActualBreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualBreakView.swift; sourceTree = "<group>"; };
 		BDC2F3F62C59692300289338 /* thirdview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdview.swift; sourceTree = "<group>"; };
 		BDC2F3FC2C596E0E00289338 /* timerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerView.swift; sourceTree = "<group>"; };
 		BDDCE08B2C584E3200F0B8C2 /* ProTasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProTasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,10 +131,19 @@
 				BDDCE0902C584E3200F0B8C2 /* ContentView.swift */,
 				BDB476CC2C5AF25500FF23FF /* aPMView.swift */,
 				BDB476CA2C5AF23C00FF23FF /* mentalHealthView.swift */,
-				BDC2F3F42C59683D00289338 /* secondView.swift */,
+				BDB634DD2C5C3B8E0077FBFA /* quizView.swift */,
+				BDB634DF2C5C3BA20077FBFA /* depV.swift */,
+				BDB634E12C5C3BAC0077FBFA /* anV.swift */,
+				BDB634E32C5C3BB60077FBFA /* eatV.swift */,
+				BDB634E52C5C3BC00077FBFA /* moreV.swift */,
 				BDC2F3FC2C596E0E00289338 /* timerView.swift */,
 				BDB476C42C5AF05B00FF23FF /* ActualTimerView.swift */,
+				BDB634E72C5C3CCA0077FBFA /* studyTimerView.swift */,
+				BDB634E92C5C3D250077FBFA /* ActualBreakView.swift */,
 				BDC2F3F62C59692300289338 /* thirdview.swift */,
+				BDB476CE2C5AF4B400FF23FF /* secondView.swift */,
+				BDADBCF32C5BF5D90027D9F1 /* Date+Extension.swift */,
+				BDADBCF52C5BF63A0027D9F1 /* Custom_CalendarApp.swift */,
 				BDDCE0922C584E3300F0B8C2 /* Assets.xcassets */,
 				BDDCE0942C584E3300F0B8C2 /* Preview Content */,
 			);
@@ -278,15 +305,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB634EA2C5C3D250077FBFA /* ActualBreakView.swift in Sources */,
+				BDB634E02C5C3BA20077FBFA /* depV.swift in Sources */,
 				BDB476C52C5AF05B00FF23FF /* ActualTimerView.swift in Sources */,
+				BDB634DE2C5C3B8E0077FBFA /* quizView.swift in Sources */,
 				BD09531B2C598AF7003F1E44 /* commView.swift in Sources */,
 				BDC2F3F72C59692300289338 /* thirdview.swift in Sources */,
 				BDB476CB2C5AF23C00FF23FF /* mentalHealthView.swift in Sources */,
 				BDDCE0912C584E3200F0B8C2 /* ContentView.swift in Sources */,
-				BDC2F3F52C59683D00289338 /* secondView.swift in Sources */,
+				BDADBCF62C5BF63A0027D9F1 /* Custom_CalendarApp.swift in Sources */,
+				BDB634E42C5C3BB60077FBFA /* eatV.swift in Sources */,
+				BDADBCF42C5BF5D90027D9F1 /* Date+Extension.swift in Sources */,
 				BDDCE08F2C584E3200F0B8C2 /* ProTaskApp.swift in Sources */,
 				BDB476CD2C5AF25500FF23FF /* aPMView.swift in Sources */,
+				BDB634E22C5C3BAC0077FBFA /* anV.swift in Sources */,
+				BDB476CF2C5AF4B400FF23FF /* secondView.swift in Sources */,
+				BDB634E82C5C3CCA0077FBFA /* studyTimerView.swift in Sources */,
 				BDC2F3FD2C596E0E00289338 /* timerView.swift in Sources */,
+				BDB634E62C5C3BC00077FBFA /* moreV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

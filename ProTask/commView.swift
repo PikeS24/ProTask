@@ -7,8 +7,10 @@
 
 import SwiftUI
 struct commView: View {
-        var body: some View {
-            NavigationStack{
+    var body: some View {
+        NavigationStack{
+            ZStack{
+              //  Color(red: <#T##Double#>, green: <#T##Double#>, blue: <#T##Double#>)
                 ScrollView {
                     VStack {
                         Text("Community Resources")
@@ -17,6 +19,7 @@ struct commView: View {
                         Text("Click text for link!")
                             .font(.title3)
                             .fontWeight(.regular)
+                        
                         Text("Procrastination:")
                             .font(.title3)
                             .fontWeight(.bold)
@@ -51,7 +54,7 @@ struct commView: View {
                                 Image("You icon")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
-                                Link("SSchool program gives teens struggling with mental health tools to overcome difficult emotions By: CBS Mornings", destination: URL(string: "https://www.youtube.com/watch?v=P-D713AsCAs")!)
+                                Link("School program gives teens struggling with mental health tools to overcome difficult emotions By: CBS Mornings", destination: URL(string: "https://www.youtube.com/watch?v=P-D713AsCAs")!)
                                     .tint(.black)
                             }
                             HStack{
@@ -65,6 +68,7 @@ struct commView: View {
                                 Image("Spot icon")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
+                                    .frame(width: 180, height: 180)
                                 Link("I AM Affirmations Podcast", destination: URL(string: "https://open.spotify.com/show/7LpbP2EBLrCizbimxkpNdW")!)
                                     .tint(.black)
                             }
@@ -101,7 +105,8 @@ struct commView: View {
                 }
             }
         }
-      }
+    }
+}
 
     #Preview {
         commView()
