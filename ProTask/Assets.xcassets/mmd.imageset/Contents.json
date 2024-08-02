@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "mmd.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "mmd-removebg-preview.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

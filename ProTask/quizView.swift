@@ -9,7 +9,13 @@ import SwiftUI
 
 struct quizView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Color(Color(red: 0.9412, green: 0.9176, blue: 0.8235))
+                .ignoresSafeArea()
+            Text("Quiz Coming Soon!")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+        }
     }
 }
 

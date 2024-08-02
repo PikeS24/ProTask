@@ -21,6 +21,7 @@
 		BDB634E62C5C3BC00077FBFA /* moreV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB634E52C5C3BC00077FBFA /* moreV.swift */; };
 		BDB634E82C5C3CCA0077FBFA /* studyTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB634E72C5C3CCA0077FBFA /* studyTimerView.swift */; };
 		BDB634EA2C5C3D250077FBFA /* ActualBreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB634E92C5C3D250077FBFA /* ActualBreakView.swift */; };
+		BDB635342C5C552C0077FBFA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB635332C5C552C0077FBFA /* ImagePicker.swift */; };
 		BDC2F3F72C59692300289338 /* thirdview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2F3F62C59692300289338 /* thirdview.swift */; };
 		BDC2F3FD2C596E0E00289338 /* timerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2F3FC2C596E0E00289338 /* timerView.swift */; };
 		BDDCE08F2C584E3200F0B8C2 /* ProTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDCE08E2C584E3200F0B8C2 /* ProTaskApp.swift */; };
@@ -64,6 +65,7 @@
 		BDB634E52C5C3BC00077FBFA /* moreV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreV.swift; sourceTree = "<group>"; };
 		BDB634E72C5C3CCA0077FBFA /* studyTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyTimerView.swift; sourceTree = "<group>"; };
 		BDB634E92C5C3D250077FBFA /* ActualBreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualBreakView.swift; sourceTree = "<group>"; };
+		BDB635332C5C552C0077FBFA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		BDC2F3F62C59692300289338 /* thirdview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdview.swift; sourceTree = "<group>"; };
 		BDC2F3FC2C596E0E00289338 /* timerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerView.swift; sourceTree = "<group>"; };
 		BDDCE08B2C584E3200F0B8C2 /* ProTasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProTasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +143,7 @@
 				BDB634E72C5C3CCA0077FBFA /* studyTimerView.swift */,
 				BDB634E92C5C3D250077FBFA /* ActualBreakView.swift */,
 				BDC2F3F62C59692300289338 /* thirdview.swift */,
+				BDB635332C5C552C0077FBFA /* ImagePicker.swift */,
 				BDB476CE2C5AF4B400FF23FF /* secondView.swift */,
 				BDADBCF32C5BF5D90027D9F1 /* Date+Extension.swift */,
 				BDADBCF52C5BF63A0027D9F1 /* Custom_CalendarApp.swift */,
@@ -312,6 +315,7 @@
 				BD09531B2C598AF7003F1E44 /* commView.swift in Sources */,
 				BDC2F3F72C59692300289338 /* thirdview.swift in Sources */,
 				BDB476CB2C5AF23C00FF23FF /* mentalHealthView.swift in Sources */,
+				BDB635342C5C552C0077FBFA /* ImagePicker.swift in Sources */,
 				BDDCE0912C584E3200F0B8C2 /* ContentView.swift in Sources */,
 				BDADBCF62C5BF63A0027D9F1 /* Custom_CalendarApp.swift in Sources */,
 				BDB634E42C5C3BB60077FBFA /* eatV.swift in Sources */,
